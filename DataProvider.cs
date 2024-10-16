@@ -5,7 +5,7 @@ namespace Commit_UX_CS
 {
     public class DataProvider
     {
-        public AccountManager[] AccountManagers { get; }
+        public UserAccountManager[] AccountManagers { get; }
         public Account[] Accounts { get; }
         public Address[] Addresses { get; }
         public OrderItem[] OrderItems { get; }
